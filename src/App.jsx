@@ -19,6 +19,10 @@ function App() {
 
   return (
     <div className='contaner'>
+      <div>
+        <p>my portfoli</p>
+        <a href="https://ryantech.netlify.app/">link</a>
+      </div>
       <h1>{count}</h1>
       <button onClick={handleIncrement}>Add</button>
     </div>
